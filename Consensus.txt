@@ -1,0 +1,38 @@
+# Concept:
+    Cơ chế đồng thuận trong blockchain là 1 cơ chế hoặc quy tắc để các node tuân theo, nhằm đảm bảo các giao dịch
+    được thực hiện bởi blockchain là minh bạch, chính xác và không thể thay đổi.
+    Cơ chế đồng thuận là một trong những yếu tố quan trọng nhất của blockchain, bởi nó quyết định tính phi tập trung,
+    bảo mật và hiệu suốt của mạng lưới.
+# Một số cơ chế đồng thuận:
+1. Proof of work:
+    - là một cơ chế đồng thuận được sử dụng trong bitcoin và nhiều blockchain khác.
+    - Trong cơ chế này, các node cạnh tranh để giải quyết các bài toán toán học phức tạp, người đầu tiên giải được
+    bâi toán sẽ được quyền xác thực giao dịch và nhận được phần thưởng.
+    - Cơ chế này có ưu điểm là bảo mật bao nhưng tiêu tốn nhiều tài nguyên và năng lượng.
+2. Proof of stake:
+    - Trong cơ chế này, các node xác thực dựa trên số lượng token mà họ nắm giữ. Node nào nắm giữ nhiều token sẽ có
+    nhiều khả năng được lựa chọn để xác thực giao dịch.
+    - Đỡ tốn tài nguyên và năng lượng hơn PoW 
+    - Dẫn đến tình trạng tập trung quyền lực.
+3. Delegated Proof of stake:
+    - Biến thể của cơ chế Proof of stake(PoS).
+    - Các node được lựa chọn để xác thực giao dịch dựa trên sự tin tưởng của động đồng (delegators).
+    - Bảo mật cao, hiệu suất tốt.
+    - Dẫn đến tình trạng tập trung quyền lực.
+4. Proof of Authority:
+    - Các nút được lựa chọn để xác thực giao dịch dự trên sự uy tín hoặc danh tiếng của họ.
+    - Ưu điểm: bảo mật cao, hiệu suất tốt.
+    - Nhược điểm: Có thể dẫn đến tình trạng tập trung quyền lực.
+5. Proof of Capacity:
+    - Node nào có dung lượng lưu trữ lớn hơn sẽ có nhiều khả năng được lựa chọn để xác thực giao dịch.
+    - Tiết kiệm năng lượng và tài nguyên.
+    - Dẫn đến tình trạng tập trung quyền lực.
+6. Proof of Burn:
+    - Cơ chế đốt token. Node nào đốt token nhiều hơn sẽ có khả năng được chọn để xác thực giao dịch.
+    - Bảo mật cao
+    - Dẫn đến tình trạng tập trung quyền lực.
+7. Byzantine Fault Tolerance:
+    - Cơ chế đồng thuận phi tập trung.
+    - Các node có thể hợp tác và giao tiếp với nhau ngay cả khi một số node bị lỗi hoặc bị tấn công.
+    - Bảo mật cao.
+    - Phức tạp và đòi hỏi nhiều tài nguyên. 

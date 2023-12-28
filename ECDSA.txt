@@ -1,0 +1,43 @@
+Mã hóa đối xứng:
+
+Mã hóa bất đối xứng(ECDSA):
+    what:
+        Là một phương pháp chữ kí số, dựa trên đường cong elip. SD xác minh giao dịch,
+
+        private key:
+        public key:
+    why:
+        y^2 (mod p) = x^3 + ax + b (mod p);
+
+        bitcoin % er
+        y^2 (mod p) = x^3 + 7 (mod p)
+        @Elliptic:
+        tính chất:
+            P + Q 
+
+        Qa = da x G
+        G: const
+
+        1 chữ kí trong ER bd = 1 cặp (r, s)
+
+        r = x của P(x, y) : P = k x G
+        s = k^-1(z + dA x r) (mod p)
+
+        z: hash -> thuật toán SHA-256 -> chuỗi hash
+
+        verify:
+            P = s^-1 x z x G + s^-1 x r x Qa
+
+
+        Ứng dụng:
+            Tạo địa chỉ ví.
+            dA -> Qa -(hash)-> 32 kí tự : lấy 20 kí tự cuối chính là address của ví.
+            Tạo chữ kí giao dịch.
+
+        
+Homework:
+    Markle tree:
+    Benefit:
+    (5W1H)
+
+

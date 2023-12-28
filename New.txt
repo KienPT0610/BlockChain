@@ -1,0 +1,38 @@
+Ví:
+    khác:
+        vật lý:
+        crypto wallets:
+    Why:
+        1. Độc lập quản lí tài sản.
+            quản lí keys.
+            quản lí tiền mã hóa.
+        2. Tương thích với các chain.
+            tương tác với dApps, DeFi;
+                Decentralize application.
+                Decentralize Finance.
+            Thực hiện các giao dịch.
+    -> Cửa ngõ đi vào thế giớ BlockChain.
+
+    What:
+        Ví lưu trữ keys.
+        Cung cấp giao diện quản lí tài sản.
+        Dễ dàng thực hiện mua bán tương tác dApps.
+
+        *Lưu ý:
+            Ví không lưu tiền mà sẽ gọi lên mạng để lấy thông tin số dư.
+                *Tiền sẽ được quản lí trên blockchain không phải tài khoản của mình.
+                    Có 2 loại sổ cái.
+            
+Seed Phrase:
+    Gồm 12(24/48) kí tự để tạo ra address và private key.
+    Tạo ra theo tiêu chuẩn BIP-39
+
+Phân loại:
+    Nơi lưu trữ: 
+        - Ví nóng, ví lạnh:
+            + Ví nóng: dễ sử dụng, lựa chọn hàng đầu cho những người mới tham gia vào hệ thống blockchain.
+            + Ví lạnh: thiết bị phần cứng lưu trữ keys.
+        - Custodial vs Non-custodial:
+            + Custodial: keys do bên thứ 3 đảm nhiệm.
+            + Non-custodial: mình có thể kiểm soát keys của mình.
+        - 

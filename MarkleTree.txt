@@ -1,0 +1,70 @@
+What:
+    Cây Merkle là một cấu trúc dữ liệu nhị phân có thứ tự được xây dựng từ một dãy các đối tượng dữ liệu sử dụng hàm băm. 
+    Hàng dưới cùng được gọi là các lá
+    Các giá trị băm ở giữa là các nhánh
+    hàm băm trên cùng là gốc
+why:
+    Tính toàn vẹn dữ liệu: Bằng cách xác minh hàm băm gốc, bạn có thể đảm bảo rằng không có khối dữ liệu nào bị thay đổi.
+    Hiệu quả: Bạn chỉ cần tải xuống và xác minh các khối dữ liệu cụ thể mà bạn cần, không phải toàn bộ tập dữ liệu. Điều này đặc biệt hữu ích cho các tập dữ liệu lớn như blockchain.
+    Sự an toàn: Thay đổi bất kỳ khối dữ liệu nào sẽ thay đổi hàm băm của nó, điều này sẽ làm mất hiệu lực hàm băm gốc, khiến việc phát hiện xâm nhập trở nên dễ dàng.
+who:
+    Cây Merkle được phát minh bởi Ralph Merkle, một nhà khoa học máy tính, vào năm 1979.
+where:
+    Chuỗi khối: Chuỗi khối sử dụng cây Merkle để đảm bảo tính toàn vẹn của dữ liệu giao dịch.
+    Git: Git, một hệ thống kiểm soát phiên bản, sử dụng cây Merkle để theo dõi các thay đổi được thực hiện đối với các tệp.
+    BitTorrent: BitTorrent, một giao thức chia sẻ tệp, sử dụng cây Merkle để xác minh tính toàn vẹn của các tệp đã tải xuống.
+when:
+    Cây Merkle thường được sử dụng trong các ứng dụng cần xác minh tính toàn vẹn của một tập dữ liệu lớn. Các ứng dụng này bao gồm:
+        Chuỗi khối: Chuỗi khối sử dụng cây Merkle để đảm bảo rằng các giao dịch không bị thay đổi hoặc gian lận.
+        Caching: Caching là một kỹ thuật lưu trữ dữ liệu cục bộ để truy cập nhanh hơn. Cây Merkle có thể được sử dụng để lưu trữ các bản băm của dữ liệu gốc, giúp giảm thiểu lượng dữ liệu cần lưu trữ.
+        Chống giả mạo: Chống giả mạo là việc sử dụng các kỹ thuật để ngăn chặn việc làm giả tài liệu hoặc dữ liệu khác. Cây Merkle có thể được sử dụng để tạo chữ ký điện tử và các ứng dụng chống giả mạo khác.
+
+
+Concept Merkle Tree:
+	
+What:
+	
+Merkle Tree is an ordered binary data structure built from a sequence of data objects using a hash function.
+The bottom row is called the leaves
+The hash values in the middle are the branches
+The hash at the top is the root
+
+Why:
+Merkle trees offer several benefits:
+Data integrity: By verifying the root hash, you can ensure that none of the data blocks have been tampered with.
+Efficiency: You only need to download and verify the specific data blocks you need, not the entire dataset. This is particularly useful for large datasets like blockchains.
+Security: Tampering with any data block changes its hash, which will then invalidate the root hash, making it easy to detect tampering.
+Who:
+	Merkle tree was invented by Ralph Merkle, a computer scientist in 1979.
+
+where:
+Blockchain: Blockchain uses Merkle trees to ensure the integrity of transaction data.
+ 	Git: Git, a version control system, uses Merkle trees to track changes made to files.
+   	BitTorrent: BitTorrent, a file sharing protocol, uses Merkle trees to verify the integrity of downloaded files.
+
+when:
+	Merkle trees are often used in applications that need to verify the integrity of a large data set. These applications include:
+        Blockchain: Blockchain uses Merkle trees to ensure that transactions are not altered or fraudulent.
+        Caching: Caching is a technique of storing data locally for faster access. Merkle trees can be used to store hashes of the original data, helping to minimize the amount of data that needs to be stored.
+        Anti-tampering: Anti-tampering is the use of techniques to prevent the falsification of documents or other data. Merkle trees can be used to create electronic signatures and other tamper-proof applications.
+
+Benefits of Markle Trees in Blockchain
+Markle trees offer several significant benefits for blockchain technology, including:
+1. Data Integrity:
+Verification: Users can efficiently verify the integrity of blockchain data without downloading the entire chain. By calculating the hash of a specific transaction and comparing it to the corresponding hash within the Merkle tree, users can confirm its validity and authenticity.
+Tamper Detection: Any alteration to a single transaction changes its hash, impacting the entire tree's root hash. This makes tampering with blockchain data extremely difficult and easily detectable.
+2. Efficiency:
+Reduced Storage: Storing only the Merkle root hash instead of the entire data set significantly reduces storage requirements, particularly for large blockchains.
+Faster Verification: Verifying individual transactions or blocks requires downloading only the relevant portions of the Merkle tree, significantly reducing verification time compared to downloading the entire chain.
+3. Security:
+Fraud Prevention: The tamper-evident nature of Merkel trees helps prevent fraudulent activities like double spending or altering transaction records.
+Enhanced Security: By leveraging cryptographic hash functions, Merkle trees significantly enhance blockchain security, making it resistant to various attacks.
+4. Scalability:
+Lightweight: Merkle trees enable efficient storage and verification, allowing blockchains to scale and handle large volumes of transactions effectively.
+Optimized Consensus: Consensus algorithms can utilize Merkle proofs to achieve faster consensus without compromising data integrity, facilitating scalability.
+5. Application Versatility:
+Multiple Blockchains: Merkle trees are used in various blockchain applications beyond cryptocurrencies, including supply chain management, identity management, and voting systems.
+Off-chain Verification: The ability to verify data integrity without accessing the entire blockchain enables off-chain processing and storage of large data sets for improved performance.
+
+
+

@@ -1,0 +1,22 @@
+@*
+@ Quá trình đóng block của một node trong blockchain là một quá trình phức tạp và bao gồm nhiều bước.
+
+1. Tải các giao dịch mới(Load new transactions):
+    - Node sẽ tải các giao dịch mới tử mạng lưới. Giao dịch có thể được gởi từ các ứng dụng hoặc các node khác 
+    trong mạng lưới.
+    (The Node will load new transactions from the network. Transactions can be sent from applications or other nodes
+    in the network).
+2. Xác thực các giao dịch(Check the validity of transactions):
+    - Node kiểm tra tính hợp lệ của các giao dịch trước khi thêm chúng vào block. Điều này đảm bảo các giao dịch có
+    chữ kí hợp lệ, số dư tài khoản đủ và không vi phạm các điều khoản của blockchain.
+3. Tạo một khối mới(Create a new block):
+    - Khi tất cả giao dịch được xác thực là hợp lệ thì block mới được tạo. Block bao gồm các giao dịch được xác minh, 
+    một mã hash cuả khối trước đó và một mã nonce. Nonce là một số ngẫu nhiên được sử dụng để tạo ra một hash duy nhất
+    cuả block đó.
+4. Tìm số nonce(Find a valid nonce):
+    - Node sẽ sử dụng nonce để tạo ra mã hash duy nhất cho block. 
+    - Phải đáp ứng 1 số yêu cầu nhất định.
+    - Quá trình này phải mất 1 số thời gian.
+5. Thêm block vào blockchain(Add the block to the blockchain):
+    - Khi tìm được nonce hợp lệ. Block mới sẽ được thêm vào blockchain.
+    - Block mới sẽ được lưu trữ trên node và gửi đến các node khác trong mạng lưới.
