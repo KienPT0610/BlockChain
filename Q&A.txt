@@ -1,0 +1,30 @@
+#Ethereum smart contract là gì?
+    Là các ứng dụng nhỏ nhỏ chạy trên blockchain ethereum thông qua EVM (Ethereum Virtual Machine)
+
+#Điều đặc biệt nhất của smart contract là gì?
+    Khi đã deploy lên blockchain ko một ai có thể thay đổi.
+    Khi smart contract đc chạy ko dừng được
+
+#Có thể gọi smart contract từ một smart contract khác không?
+    Một smart contract có thể gọi 1 smart contract khác 
+
+#Từ 1 smart contract có thể gọi được 1 API từ bên ngoài không?
+    Không. Muốn lấy được data từ on chain sử dụng oracle cty cung cấp. 
+
+#Smart contract có lưu nhiều dữ liệu ko?
+    Không. Vì dữ liệu lớn gas càng nhiều.
+
+#Ngôn ngữ code smart contract:
+    Rust, Hash, ...
+
+#Có thể code nhiều smart contract trong cùng 1 file.
+
+#Solidity là static-type: định nghĩa kiểu dữ liệu trc khi sài nó.
+
+#Dùng công cụ nào xem và lấy data từ blockchain: 
+    Xem qua block expror
+
+#ABI:
+    Application Banary Interface: Sinh ra sau khi compare 1 smart contract. 
+    Dùng thư viện của WEB3
+    

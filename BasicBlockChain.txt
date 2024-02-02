@@ -1,0 +1,21 @@
+Công nghệ lưu trữ dữ liệu ở trên các block.
+
+Block1 <- block2 <- block3 <- block4
+
+Block:
+    Metadata: // Thông tin về block
+        + Thời gian đào.
+        + Số block.
+    Transaction:
+        + Dữ liệu được thay đổi được như nào ở trong block đó.
+            // Tất cả những gì thay đổi trong blockchain.
+
+@Điểm nổi bật:
+    - Immutability: // không ai có thể sửa block.
+        + Có các Consensus(15-16 thuật toán) nhờ có Consensus mechanism mà ko ai đc ghi 1 transaction ko hợp lệ vào block.
+    - Decentralization: // Tất cả mọi người đều có thể tham gia mạng.
+
+@Điểm yếu:
+    - Tốn gas,..
+    - Chậm: ghi transaction chờ các node confirm.
+     

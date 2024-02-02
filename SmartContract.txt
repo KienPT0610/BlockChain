@@ -1,0 +1,23 @@
+@Khái niệm:
+    Một ứng dụng nhỏ chạy trên blockchain thông qua EVM.
+
+@Đặc điểm:
+    #Điểm mạnh:
+        - Code không thể sửa khi deploy (Immutability).
+        - Không bị quản lí bởi ai.
+        - Không cần sever.
+        - Gửi nhận tiền rất dễ dàng.
+    #Điểm yếu:
+        - Mắc: vì trả gas cho node/validater.
+        - Chậm: Ethereum 15s đào đc 1 block.
+                Banance ..
+        - Khả năng lưu trữ bị giới hạn:
+        - Không thể gọi API bên ngoài.
+
+@Build:
+    #Code:
+        Solidity, Rust...
+    #Compile code thành EVM bytecode:
+    #Gửi Transaction Contract creation + EVM bytecode lên blockchain.
+    #Chờ transaction được đào.
+    

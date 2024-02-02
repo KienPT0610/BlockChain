@@ -1,0 +1,21 @@
+Công việc:
+    Phát triển hệ thống theo hướng backend;
+    xây dựng API sever, backend, solidity,...
+
+Skill:
+    Kiến trúc blockchain:
+        Hàm băm mật mã.
+        Sự đồng thuận.
+        Công nghệ sổ cái phân tán.
+    Phát triển hợp đồng thông minh:
+    Cấu trúc dữ liệu:
+    Phát triển web:
+    Cyptography:
+        Giữ an toàn cho dữ liệu.
+    Javascript:
+        Có thể sử lí mã ko đồng bộ
+    Solidity:
+        Tạo ứng dụng phi tập trung
+    Java:
+        Xây dựng trang web tương tác, tạo bl đơn giản bất biến.
+    

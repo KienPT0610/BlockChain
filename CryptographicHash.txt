@@ -1,0 +1,19 @@
+@Quan trọng
+
+    Để xác định 1 transaction cần thông qua transaction hash.
+
+Concept:
+    - Là 1 dấu tay dùng để xác định 1 data (vidu: xác nhận giao dịch)
+    - Không quan trọng dữ liệu hớn hay nhỏ. Mỗi lần hash sẽ ra 1 chuỗi giống nhau.
+    - Đi từ dữ liệu gốc để hash ra hash đó, không thể đi từ hash đó ra dữ liệu gốc.
+    
+
+    - Sinh ra ntn:
+        Keccak256:
+            Tương tự SHA3: https://en.wikipedia.org/wiki/SHA-3
+            Secure Hash algorithm.
+        https://www.oreilly.com/library/view/mastering-ethereum/9781491971932/ch04.html
+
+    Data đc thể hiện dưới hash.
+
+    

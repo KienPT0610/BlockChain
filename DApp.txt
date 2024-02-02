@@ -1,0 +1,19 @@
+Decentralize application
+
+vd: pancakeswap   // sàn giúp mình trao đổi
+
+Dapp giao tiếp vs phần mềm quản lí ví và smart contract.
+
+#Viết smart contract.
+#Tạo Frontend.
+#Giao tiếp với chương trình quản lí ví.
+#Giao tiếp vs smart contract thông qua WEB3 / ethers js.
+
+
+@Các bước build 1 Dapp:
+    #1 Xác định logic smart contract.
+    #2 Code.
+    #3 Test Smart Contract.
+    #4 Deploy lên testnet.
+    #5 Deploy lên mainnet.
+    

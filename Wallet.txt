@@ -1,0 +1,13 @@
+Quản lí địa chỉ ví bên t3:
+EX: 
+    Metamask
+    Trust Wallet
+
+
+HDW (Hyper Deterministic Wallet): ý nghĩa: một wallet có thể tạo ra nhiều ví.
+
+Private key:
+    Là 1 dãy kí tự random 
+    Mnemonic Phrase: Chuỗi gồm 12 từ khóa và tuân theo 1 thứ tự nhất định nào đó.
+        - dùng 12 từ khóa này để truy cập vào private key;
+        

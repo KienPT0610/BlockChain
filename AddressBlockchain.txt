@@ -1,0 +1,15 @@
+What?
+    - Dùng để gửi và nhận tiền trên blockchain
+
+How?
+    Private key: 
+        - Giữ bí mật (biết được thì truy cập vào tất cả các địa chỉ)
+
+        private key ---> public key (128kitu) ---> public key (64kitu) ---> 0x + lấy 42 kí tự cuối cùng (adress)
+                cryptographic               Keccak256                   
+                Elliptic
+        
+    
+Address:
+    + EOA: address của 1 người nào đó.
+    + Contract address: control bởi code smart contract 

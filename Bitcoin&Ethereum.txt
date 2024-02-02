@@ -1,0 +1,15 @@
+@Tùy vào lĩnh vực, ứng dụng mà blockchain ứng dụng.
+
+@Bitcoin:
+    Đồng tiền kts đầu tiên.
+    Ứng dụng blockchain: Lưu trữ và chuyển tiền tệ (đơn vị bitcoin)
+    Consensus: 
+        Proof of work: khi node đào được 1 khối và ghi đc lên blockchain thì BTC sẽ sinh ra và thưởng cho node đó.
+        Số lượng bitcoin là 21M. (giảm lạm phát)
+        https://bitcoin.org/bitcoin.pdf
+
+@Ethereum:
+    Do thấy được giới hạn của bitcoin:
+    
+    Khái niệm Ethereum Virtual Machine (EVM): // thành phần chạy trên blockchain.
+        Xử lí smart contract. (khi deploy k sửa đc code).

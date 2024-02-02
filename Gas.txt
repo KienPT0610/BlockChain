@@ -1,0 +1,27 @@
+@Gas là gì:
+    Phí giao dịch khi gửi transaction phải trả.
+
+@Tại sao phải trả:
+    #Chống spam
+    #Trả cho miner
+
+@Ai trả:
+    #Người gửi transaction trả (dựa vào private key)
+@Ai nhận:
+    #Người ghi được block chứ transaction đó lên BLC
+@Trả cái gì:
+    #Native token.
+@Trả bao nhiêu:
+    #Phụ thuộc vào độ phức tạp transaction.
+        EX: cộng 2 số 10,000gas.
+            gửi từ ví A sang B là 20,000gas.
+            Lưu một số lên BLC 15,000gas.
+        
+        Funcion:
+            + hết all seri elementary instruction -> Gas
+        
+
+@Trả gas bằng Ethereum:
+    #Giá gas: https://ethgasstation.info/
+
+    

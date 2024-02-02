@@ -1,0 +1,22 @@
+
+Bất kì hành động nào làm thay đổi blockchain đều gọi là transaction
+Ex: gởi nhận làm thay đổi số dư của ví.
+    Gọi hàm thay đổi data trên blockchain.
+Call != transaction.
+
+@Transaction:
+    From:
+    To:
+    Value:
+    Gas:
+    Data:
+        data miêu tả mình gọi hàm nào
+        mã hóa. giải mã cần api
+
+@Vòng đời:
+    #1 Build một transaction gồm các trường dữ liệu.
+    #2 Dùng private key để sign transaction đó.
+    #3 Send transaction đó lên blockchain.
+    #4 Chờ verify (có thể là validator node hoặc minner node).
+    => Nếu transaction đã ghi lên blockchain, bạn sẽ nhận được transaction receipt(nhận lại 1 hóa đơn).
+
